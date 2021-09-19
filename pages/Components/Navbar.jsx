@@ -4,8 +4,8 @@ import { Nav,Form,Navbar, NavDropdown,FormControl,Button } from "react-bootstrap
 export default function nav() {
 
     return (
-        <div>
-        <Navbar  fluid bg="light" expand="lg">
+        <div className="whole-nav">
+        <Navbar  fluid  expand="lg">
   <Navbar.Brand href="#">Book Worms</Navbar.Brand>
   <Navbar.Toggle aria-controls="navbarScroll" />
   <Navbar.Collapse className="nav-contents" id="navbarScroll">

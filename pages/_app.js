@@ -1,6 +1,7 @@
 // import App from 'next/app'
 import "./Components/index.css"
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./Components/sass.module.sass"
 import index from "./index"
 
 function MyApp({ Component, pageProps }) {
